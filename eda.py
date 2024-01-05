@@ -90,7 +90,7 @@ def eda():
             df_job['skills'].astype(str)
             skills = ' '.join(filtered_df1['skills'])
             wordcloud = WordCloud(width=600, height=400, background_color='#E3D5CA').generate(skills)
-            st.pyplot(plt.imshow(wordcloud, interpolation='bilinear'))
+            st.image(wordcloud.to_array())
         else:
             st.warning("No data available with selected filters.")
 
