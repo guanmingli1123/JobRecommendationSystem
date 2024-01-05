@@ -13,7 +13,7 @@ def home():
         "Receive handpicked job recommendations based on your skills and interests!🤩"
     )
 
-    st.image('Image/home_job.png')
+    st.image('home_job.png')
 
     if st.button("Start Recommendation"):
         job()
