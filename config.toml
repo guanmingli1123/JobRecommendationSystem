@@ -1,0 +1,12 @@
+[general]
+pageTitle = "Job Recommendation System"
+icon = "✨"
+layout="centered"
+
+[theme]
+base = "light"
+primaryColor="#46392A"
+backgroundColor="#E3D5CA"
+secondaryBackgroundColor="#D5BDAF"
+textColor="#46392A"
+font="inter"
